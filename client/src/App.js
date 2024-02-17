@@ -1,13 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import MyComponent from './MyComponent1';
+import Header from './Header';
+import Home from './Home';
+import Footer from './Footer';
 
 function App() {
   return (
     <div className="App">
-      <h1>리액트 시작하기</h1>
-      <MyComponent name={"우영우"} age={27} />
-      <img src={logo} className='App-logo' alt='' />
+      <Header />
+      <Home />
+      <Footer />
+      
     </div>
   );
 }

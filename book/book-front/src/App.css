@@ -11,6 +11,9 @@ button{
   height: 80px;
   line-height: 80px;
 }
+.header a{
+  margin: 0 20px;
+}
 .home{
   width: 1200px;
   margin: 20px auto;
@@ -21,4 +24,10 @@ button{
   background-color: rgb(234, 233, 233);
   height: 80px;
   line-height: 80px;
+}
+.booklist{
+  width: 1200px;
+  margin: 20px auto;
+  height: 400px;
+  line-height: 2;
 }
